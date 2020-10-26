@@ -1,5 +1,5 @@
-# XDC constraints for the Digilent Nexys Video board
-# part: xc7a200tsbg484-1
+# XDC constraints for the Enclustra Mars PM3 board
+# part: xc7a100tcsg324-2
 
 # General configuration
 set_property CFGBVS VCCO [current_design]

@@ -54,7 +54,3 @@ XDC_FILES += lib/eth/lib/axis/syn/axis_async_fifo.tcl
 XDC_FILES += lib/eth/lib/axis/syn/sync_reset.tcl
 
 include ../common/vivado.mk
-
-program: $(FPGA_TOP).bit
-	djtgcfg prog -d NexysVideo --index 0 --file $(FPGA_TOP).bit
-
